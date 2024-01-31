@@ -3,7 +3,7 @@
 # Jules Dumouchel
 
 
-### À propos
+## À propos
 
 CrawlerWeb est une classe Python flexible et facile à utiliser pour le web crawling. Conçue pour être simple mais efficace, elle permet de parcourir des sites web en récupérant les liens et en respectant les bonnes pratiques de politesse du web.
 Caractéristiques
@@ -17,7 +17,7 @@ Verbose Mode: Option pour activer des logs détaillés pendant le crawl.
 ## Utilisation
 
 
-Initialisation
+Initialisation :
 
 python
 
@@ -27,13 +27,13 @@ Démarrer le Crawl
 
 visited_urls = crawler.crawl()
 
-Récupérer les URLs depuis un Sitemap
+Récupérer les URLs depuis un Sitemap :
 
 
 sitemap_urls = crawler.get_sitemaps_from_index("https://example.com/sitemap_index.xml")
 page_urls = crawler.get_urls_from_sitemap("https://example.com/sitemap.xml")
 
-### Exécuter un Crawl Complet à partir d'un Sitemap Index
+Exécuter un Crawl Complet à partir d'un Sitemap Index :
 
 
 all_urls = crawler.simple_web_crawler("https://example.com/sitemap_index.xml", max_urls=150)
