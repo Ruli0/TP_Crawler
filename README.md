@@ -1,6 +1,6 @@
 # CrawlerWeb : Un outil de Web Crawling en Python
 
-## Jules Dumouchel
+ ## Jules Dumouchel
 
 
 ### À propos
@@ -17,13 +17,13 @@ Verbose Mode: Option pour activer des logs détaillés pendant le crawl.
 ## Utilisation
 
 
-### Initialisation
+ ### Initialisation
 
 python
 
 crawler = CrawlerWeb("https://example.com", max_urls=50, max_links_page=5, verbose=True)
 
-### Démarrer le Crawl
+ ### Démarrer le Crawl
 
 visited_urls = crawler.crawl()
 
