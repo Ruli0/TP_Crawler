@@ -2,6 +2,7 @@
 
 ## Jules Dumouchel
 
+
 ### À propos
 
 CrawlerWeb est une classe Python flexible et facile à utiliser pour le web crawling. Conçue pour être simple mais efficace, elle permet de parcourir des sites web en récupérant les liens et en respectant les bonnes pratiques de politesse du web.
@@ -14,6 +15,8 @@ Configuration flexible: Paramètres pour limiter le nombre total de pages à vis
 Verbose Mode: Option pour activer des logs détaillés pendant le crawl.
 
 ## Utilisation
+
+
 ### Initialisation
 
 python
